@@ -1,6 +1,6 @@
 However, for external resources we need internet permission in Manifest file as under:
 
-<uses-permission android:name="android.permission.INTERNET"/>
+uses-permission android:name="android.permission.INTERNET"
 
 See the layout:
 
