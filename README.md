@@ -3,7 +3,7 @@ However, for external resources we need internet permission in Manifest file as 
 uses-permission android:name="android.permission.INTERNET"
 
 See the layout:
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -47,9 +47,9 @@ See the layout:
         app:layout_constraintWidth_percent="0.33"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 Main Activity:
-
+```
 public class MainActivity extends AppCompatActivity {
     Button btnPause, btnPlay, btnStop;
     @Override
@@ -104,3 +104,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+```
